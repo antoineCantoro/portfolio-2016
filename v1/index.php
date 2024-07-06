@@ -12,16 +12,18 @@
     
 </head>
 <body>
-    <?php include_once("analyticstracking.php") ?>
+    
 <div id="loader">
     Chargement
     <svg width="200" height="200">
         <circle cx="100" cy="100" r="50" stroke="#4664d8" stroke-width="5" fill="#78b1fa">
-            <animate attributeName="r" attributeType="XML"
-            fill="freeze"
-            from="0" to="75"
-            begin="0s" dur="1s"
-        />
+            <animate 
+                attributeName="r" 
+                attributeType="XML"
+                fill="freeze"
+                from="0" to="75"
+                begin="0s" dur="1s"
+            />
         </circle>
     </svg>
 </div>
